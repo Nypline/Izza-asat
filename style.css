@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fira+Code:wght@300..700&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spline+Sans:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+nav {
+    background-color: white;
+    background-image: url(/images/paw-pattern\ 1.svg);
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    justify-content: space-between;
+    z-index: 999;
+    border-radius: 50px;
+
+}
+
+.container .hamburger {
+    display: none;
+    cursor: pointer;
+
+}
+
+#hamburger-div {
+    justify-content: center;
+    width: 99%;
+    height: 500px;
+    background-color: white;
+    padding: 40px 20px 40px 20px;
+    border-radius: 32px 32px 0px 0px;
+    display: none;
+
+}
+
+#rightnav a {
+    color: rgba(46, 81, 113, 1);
+    text-decoration: none;
+    margin: 10px;
+    font-family: "Barlow";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    text-align: left;
+
+}
+
+.lowercontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    font-family: "Barlow";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.8px;
+    text-align: center;
+
+}
+
+.lowercontainer p {
+    color: rgba(46, 80, 112, 1);
+    ;
+    text-decoration: none;
+}
+
+.lowercontainer a {
+    color: rgba(46, 80, 112, 1);
+    ;
+    text-decoration: none;
+}
+
+.lowercontainer img {
+    margin: 0px 20px;
+    align-items: center;
+}
+
+.hero {
+    height: 90vh;
+}
+
+.content-hero {
+    padding-top: 8.5rem;
+}
+
+#right-side {
+    height: 768px;
+}
+
+#right-side img:nth-of-type(1) {
+    border-radius: 600px 600px 0 0;
+    border: 10px solid white;
+    top: 15px;
+    width: 75%;
+}
+
+#right-side img:nth-of-type(2) {
+    z-index: 1;
+    border-radius: 200px;
+    width: 32%;
+    height: 40%;
+    border: solid 10px #C6EAE3;
+    object-fit: cover;
+    top: 32rem;
+    left: 27rem;
+}
+
+#right-side img:nth-of-type(3) {
+    z-index: 2;
+    border-radius: 300px;
+    width: 30%;
+    height: 26%;
+    border: solid 10px #95BB6F;
+    object-fit: cover;
+    top: 80px;
+    right: 470px;
+}
+
+.our-services-section {
+    padding-top: 8rem;
+    background-color: #C6EAE3;
+    height: 100vh;
+}
+
+.judul-services {
+    padding-bottom: 3rem;
+}
+
+.card-services {
+    width: 630px;
+}
+
+.content-card {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cat-joy-location {
+    background-image: url(./images/bg-address.jpg);
+    background-size: cover;
+    height: 80vh;
+    background-position: left 0 top -250px;
+}
+
+.card-joy-location {
+    width: 80%;
+    margin-left: 32px;
+    height: 80%;
+}
+
+.left-side-joy-location {
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.maps {
+    width: 100%;
+    height: 75%;
+}
+
+.testimonials {
+    background-color: #C6EAE3;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-testimoni {
+    gap: 60px;
+    display: flex;
+}
+
+footer {
+    width: 100%;
+    height: 450px;
+    background-image: url(./images/paw-pattern-dark.svg);
+    background-color: rgba(46, 80, 112, 1);
+    display: flex;
+    justify-content: center;
+}
+
+#footer {
+    width: 95%;
+    height: 450px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#upper-footer {
+    width: 75%;
+    height: 250px;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+#upper-footer img {
+    width: 250px;
+}
+
+#upper-footer h6 {
+    font-family: "Barlow";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color: rgba(198, 234, 227, 1);
+}
+
+#upper-footer p {
+    font-family: "Barlow";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+#lower-footer {
+    width: 100%;
+    height: 150px;
+    border-top: 1px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    nav {
+        overflow: hidden;
+        z-index: 999;
+    }
+
+    #rightnav a {
+        display: none;
+        z-index: 999;
+    }
+
+    .container .hamburger {
+        display: flex;
+        z-index: 999;
+    }
+
+    #hamburger-div {
+        display: none;
+        margin-top: 110px;
+        position: fixed;
+        z-index: 999;
+    }
+
+    .hero {
+        height: 120vh;
+    }
+
+    .section-hero {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .content-hero {
+        padding-top: 0;
+        padding-bottom: 3rem;
+    }
+
+    #right-side img:nth-of-type(1) {
+        width: 65%;
+        top: 9rem;
+    }
+
+    #right-side img:nth-of-type(2) {
+        width: 32%;
+        height: 30%;
+        top: 28.5rem;
+        border: 8px solid #C6EAE3;
+        left: 19.8rem;
+    }
+
+    #right-side img:nth-of-type(3) {
+        width: 34%;
+        height: 22.3%;
+        left: 2rem;
+        top: 11rem;
+    }
+
+    .our-services-section {
+        margin-top: 4rem;
+        padding-top: 10rem;
+        height: 230vh;
+    }
+
+    .card-services {
+        width: 380px;
+    }
+
+    .content-card {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cat-joy-location {
+        height: 100vh;
+        background-size: cover;
+        padding-right: 32px;
+    }
+
+    .card-joy-location {
+        padding-inline: 10px;
+        margin-top: 50px;
+        width: 80%;
+    }
+
+    .left-side-joy-location {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .maps {
+        width: 100%;
+        height: 55%;
+    }
+
+    .testimonials {
+        height: 140vh;
+    }
+
+    .container-testimoni {
+        flex-direction: column;
+    }
+
+    footer {
+        height: 850px;
+        width: 100%;
+    }
+
+    #upper-footer {
+        flex-direction: column;
+        margin-top: 400px;
+
+    }
+
+    #lower-footer {
+        flex-direction: column;
+        margin-top: 400px;
+    }
+
+    #lower-footer p {
+        max-width: 600px;
+    }
+}
+/* 
+@media (min-width: 360px) {
+    #right-side img:nth-of-type(1) {
+        width: 60%;
+        top: 9rem;
+    }
+
+    #right-side img:nth-of-type(2) {
+        width: 28%;
+        height: 24%;
+        top: 25rem;
+        border: 8px solid #C6EAE3;
+        left: 17.5rem;
+    }
+
+    #right-side img:nth-of-type(3) {
+        width: 28%;
+        height: 16.3%;
+        left: 3rem;
+        top: 11.5rem;
+    }
+} */

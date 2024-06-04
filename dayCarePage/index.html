@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Deycare Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <nav class="rounded-pill d-flex align-items-center" style="height: 80px; overflow: hidden;">
+        <div class=" mx-5">
+            <a class="navbar-brand" href="/index.html">
+                <img src="images/logo-dark.svg" alt="Bootstrap" width="120px" height="50px">
+            </a>
+        </div>
+        <div class="container d-flex justify-content-end mx-3" id="rightnav" style="gap: 24px;">
+            <a href="/page2danpage5/index.html" class="text-decoration-none">Tentang Kami</a>
+            <a href="/clinicPage/index.html" class="text-decoration-none">Klinik</a>
+            <a href="/dayCarePage/index.html" class="text-decoration-none">Daycare & Grooming</a>
+            <a href="/page2danpage5/hal-5.html" class="text-decoration-none">Adopsi</a>
+            <img src="./images/menu-list-right.svg" class="hamburger" alt="" id="menu"
+                onclick="myFunction(); changeImage()">
+        </div>
+    </nav>
+    <div id="hamburger-div">
+        <div class="container lowercontainer">
+            <a href="/page2danpage5/index.html" class="text-decoration-none">Tentang Kami</a>
+            <a href="/clinicPage/index.html" class="text-decoration-none">Klinik</a>
+            <a href="/dayCarePage/index.html" class="text-decoration-none">Daycare & Grooming</a>
+            <a href="/page2danpage5/hal-5.html" class="text-decoration-none">Adopsi</a>
+            <p class="align-content-center"><img src="Picture/whatsapp.svg" alt="">0812-3456-78910</p>
+        </div>
+    </div>
+
+    <main>
+        <div class="hero-img-bg">
+            <img src="./images/hero-daycare.jpg" alt="" class="img-fluid">
+        </div>
+
+        <section class="hero py-5" style="background-color: #edf8f9;">
+            <div class="container">
+                <div class="row">
+                    <!-- bagian kiri mulai -->
+                    <div class="left-side col-md-5 d-flex justify-content-between">
+                        <h1 class="hero-judul fw-bold pb-5 text-start">Daycare & Grooming</h1>
+                        <img class="catpaw pb-5" src="./images/CatPaw.png" alt="" style="width: 200px;">
+                    </div>
+                    <!-- bagian kiri selesai -->
+
+                    <!-- bagian kanan mulai -->
+                    <div class="right-side col-md-7">
+                        <p class="hero-body text-start" style="font-size: 18px;">Selamat datang di Daycare dan Grooming
+                            Joy Cat, tempat di mana kucing Anda akan mendapatkan perawatan dan perhatian terbaik saat
+                            Anda tidak berada di rumah. Kami menawarkan berbagai paket layanan yang dapat disesuaikan
+                            dengan kebutuhan Anda dan kucing kesayangan Anda.</p>
+                    </div>
+                    <!-- bagian kanan selesai -->
+                </div>
+
+                <div class="row" style="margin-top: 8rem; margin-bottom: 4rem;">
+                    <!-- bagian kiri mulai -->
+                    <div class="col-md-6 d-flex justify-content-center">
+                        <img src="./images/daycare-1.jpg" class="img-daycare img-fluid" alt="">
+                    </div>
+                    <!-- bagian kiri selesai -->
+
+                    <!-- bagian kanan mulai -->
+                    <div class="col-md-6 d-flex flex-column justify-content-center">
+                        <h2 class="judul-body fw-bold" style="color: #2E5070;">Cat Daycare</h2>
+                        <p class="paragraf-body py-3" style="font-size: 18px; color: #2E5070;">Butuh tempat yang aman
+                            dan nyaman untuk menitipkan kucing Anda? Daycare kami menyediakan lingkungan yang aman,
+                            bersih, dan penuh kasih sayang. Kucing Anda akan diawasi oleh staf profesional yang
+                            berpengalaman.</p>
+                    </div>
+                    <!-- bagian kanan selesai -->
+                </div>
+
+                <h2 class="paket-daycare-judul fw-bold pb-3" style="color: #2E5070;">Paket Daycare</h2>
+                <div class="row container-card-content">
+                    <div class="col-md-6 mb-4">
+                        <div class="card-paket-daycare card" style="border: none;">
+                            <div class="card-body">
+                                <h5 class="card-title-daycare fw-bold">Daycare Sehari Penuh</h5>
+                                <h6 class="card-subtitle mb-2 pb-2 h5">Rp200.000</h6>
+                                <div class="hr w-100 mb-4" style="border-bottom: #C6EAE3 solid 2px;"></div>
+                                <ul class="list-container">
+                                    <li class="list-content">Durasi minimal 6 jam sampai dengan 24 jam</li>
+                                    <li class="list-content">Makanan, minuman, mainan, tempat istirahat, dan sesi
+                                        bermain</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card-paket-daycare card" style="border: none;">
+                            <div class="card-body">
+                                <h5 class="card-title-daycare fw-bold">Daycare Pekanan</h5>
+                                <h6 class="card-subtitle mb-2 pb-3 h5">Rp950.000</h6>
+                                <div class="hr w-100 mb-4" style="border-bottom: #C6EAE3 solid 2px;"></div>
+                                <ul class="list-container">
+                                    <li class="list-content">Durasi full 1 pekan</li>
+                                    <li class="list-content">Makanan, minuman, mainan, tempat istirahat, sesi bermain,
+                                        dan pemeriksaan kesehatan ringan setiap hari</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="https://wa.me/0812345678910" style="text-decoration: none;">
+                    <div class="d-grid gap-2">
+                        <button class="button btn rounded-5 mt-5">
+                            <i class="bi bi-whatsapp"></i> Reservasi Sekarang
+                        </button>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="cat-grooming-section">
+            <div class="container">
+                <div class="row content-cat-grooming" style="margin-top: 8rem; margin-bottom: 4rem;">
+                    <!-- bagian kiri mulai -->
+                    <div class="col-md-6 d-flex flex-column justify-content-center">
+                        <h2 class="judul-body fw-bold" style="color: #2E5070;">Cat Grooming</h2>
+                        <p class="paragraf-body py-3" style="font-size: 18px; color: #2E5070;">Layanan grooming kami
+                            mencakup berbagai perawatan untuk menjaga kebersihan dan kesehatan bulu kucing Anda. Kami
+                            menggunakan produk yang aman dan teknik yang tepat untuk memastikan kucing Anda merasa
+                            nyaman selama perawatan.</p>
+                    </div>
+                    <!-- bagian kiri selesai -->
+
+                    <!-- bagian kanan mulai -->
+                    <div class="col-md-6 d-flex justify-content-center">
+                        <img src="./images/daycare-2.jpg" class="img-daycare img-fluid" alt="">
+                    </div>
+                    <!-- bagian kanan selesai -->
+                </div>
+
+                <h2 class="paket-daycare-judul fw-bold pb-3" style="color: #2E5070;">Paket Grooming</h2>
+                <div class="row container-card-content">
+                    <div class="col-md-6 mb-4">
+                        <div class="card-paket-daycare card" style="background-color: #edf8f9; border: none;">
+                            <div class="card-body">
+                                <h5 class="card-title-daycare fw-bold">Basic</h5>
+                                <h6 class="card-subtitle mb-2 pb-3 h5">Rp150.000</h6>
+                                <div class="hr w-100 mb-4" style="border-bottom: #C6EAE3 solid 2px;"></div>
+                                <ul class="list-container">
+                                    <li class="list-content">Mandi, pengeringan, penyikatan bulu, pemotongan kuku,
+                                        pembersihan telinga</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card-paket-daycare card" style="background-color: #edf8f9; border: none;">
+                            <div class="card-body">
+                                <h5 class="card-title-daycare fw-bold">Complete</h5>
+                                <h6 class="card-subtitle mb-2 pb-3 h5">Rp250.000</h6>
+                                <div class="hr w-100 mb-4" style="border-bottom: #C6EAE3 solid 2px;"></div>
+                                <ul class="list-container">
+                                    <li class="list-content">Mandi, pengeringan, penyikatan bulu, pemotongan kuku,
+                                        pembersihan telinga, pemotongan bulu (jika diperlukan), dan pengharum bulu</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="https://wa.me/0812345678910" style="text-decoration: none;">
+                    <div class="d-grid gap-2">
+                        <button class="button btn rounded-5 mt-5">
+                            <i class="bi bi-whatsapp"></i> Reservasi Sekarang
+                        </button>
+                    </div>
+                </a>
+        </section>
+    </main>
+
+    <footer>
+        <div id="footer" class="pt-5">
+            <div id="upper-footer">
+                <div>
+                    <img src="./images/logo-light.png" alt="">
+                </div>
+                <div>
+                    <h6>Main Links</h6>
+                    <p>Home</p>
+                    <p>Klinik</p>
+                    <p>Daycare & Grooming</p>
+                    <p>Adopsi</p>
+                </div>
+                <div>
+                    <a href="https://wa.me/0812345678910" style="text-decoration: none;">
+                        <p>0812-3456-78910</p>
+                    </a>
+
+                    <a href="mailto:admin@joycat.com" style="text-decoration: none;">
+                        <p>admin@joycat.com</p>
+                    </a>
+
+                    <a href="https://maps.app.goo.gl/d9ze4WH84M2zgJZc6" style="text-decoration: none;">
+                        <p style="max-width: 270px;">Jl. Radar Auri No.32d, Cisalak Ps., Kec. Cimanggis, Kota Depok,
+                            Jawa
+                            Barat 16452</p>
+                    </a>
+                </div>
+                <div>
+                    <h6>Follow us for updates</h6>
+                    <div class="d-flex  row gap-4" id="logo">
+                        <img src="./images/_YouTube.svg" alt=""
+                            style="width: 50px; padding: 5px; background-color: white;" class="rounded-3 "><img
+                            src="./images/_TikTok.svg" alt=""
+                            style="width: 50px; padding: 5px; background-color: white;" class="rounded-3 "><img
+                            src="./images/_Instagram.svg" alt=""
+                            style="width: 50px; padding: 5px; background-color: white;" class="rounded-3 ">
+                    </div>
+                </div>
+            </div>
+            <div id="lower-footer">
+                <p>2024 © • Asesmen Sumatif Akhir Tahun Sekolah Developer Indonesia • Dibuat oleh Abdullah Fulan •
+                    All images are either free stocks or generated by AI • </p>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,491 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(237, 248, 249, 1);
+}
+
+nav {
+    background-color: white;
+    background-image: url(/images/paw-pattern\ 1.svg);
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    justify-content: space-between;
+    border-radius: 50px;
+
+}
+
+.container .hamburger {
+    display: none;
+    cursor: pointer;
+
+}
+
+#hamburger-div {
+    justify-content: center;
+    width: 99%;
+    height: 500px;
+    background-color: white;
+    padding: 40px 20px 40px 20px;
+    border-radius: 32px 32px 0px 0px;
+    display: none;
+
+}
+
+#rightnav a {
+    color: rgba(46, 81, 113, 1);
+    text-decoration: none;
+    margin: 10px;
+    font-family: "Barlow";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    text-align: left;
+
+}
+
+.lowercontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    font-family: "Barlow";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.8px;
+    text-align: center;
+
+}
+
+.lowercontainer p {
+    color: rgba(46, 80, 112, 1);
+    ;
+    text-decoration: none;
+}
+
+.lowercontainer a {
+    color: rgba(46, 80, 112, 1);
+    ;
+    text-decoration: none;
+}
+
+.lowercontainer img {
+    margin: 0px 20px;
+    align-items: center;
+}
+
+#gambar-hal-5 {
+    width: 100%;
+    height: 400px;
+    background-image: url(Gambar-hal-5.svg);
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+}
+
+#cat-adoption {
+    display: flex;
+    justify-content: center;
+}
+
+#cat-adoption h6 {
+    font-family: "Barlow";
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 76.8px;
+    text-align: left;
+    max-width: 350px;
+
+}
+
+.inner-adoption {
+    width: 80%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 200px;
+}
+
+.left-inner {
+    display: flex;
+
+}
+
+.left-inner h6 {
+    color: rgba(46, 80, 112, 1);
+}
+
+.right-inner p {
+    max-width: 600px;
+    color: black;
+}
+
+.all-card {
+    display: flex;
+    justify-content: center;
+    /* padding-left: 75px; */
+    gap: 20px;
+}
+
+.upper-card {
+    display: flex;
+    gap: 20px;
+}
+
+.lower-card {
+    display: flex;
+    gap: 20px;
+}
+
+.first-cat {
+    width: 320px;
+    height: 600px;
+    padding: 12px;
+    gap: 20px;
+    border-radius: 24px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-cat h2 {
+    font-family: "Barlow";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    color: rgba(46, 80, 112, 1);
+
+}
+
+.text-descriptioncat {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.left-text {
+    font-family: "Barlow";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(46, 80, 112, 1);
+}
+
+.right-text {
+    font-family: "Barlow";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(46, 80, 112, 1);
+
+}
+
+.page-page {
+    display: flex;
+    gap: 20px;
+}
+
+.all-card button,
+.fle button {
+    width: Fill;
+    padding: 24px;
+    gap: 10px;
+    border-radius: 200px;
+    background-color: rgba(149, 187, 111, 1);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: "Barlow";
+    font-size: 16px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.background-last-card {
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    background-color: white;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-card {
+    width: 70%;
+    height: 570px;
+    background-color: rgba(246, 201, 86, 1);
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-card {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-card {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+
+.upper-left-card p {
+    font-family: "Barlow";
+    font-size: 25px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(46, 80, 112, 1);
+    max-width: 400px;
+}
+
+.hidden {
+    display: none;
+    font-family: "Barlow";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+.upper-left-card span {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.upper-left-card label {
+    font-family: "Barlow";
+    text-align: left;
+    color: rgba(46, 80, 112, 1);
+
+}
+
+.upper {
+    width: 90%;
+    height: 50px;
+    /* padding: 24px; */
+    border-radius: 100px;
+    border: none;
+    margin-top: 20px;
+    background: rgba(46, 80, 112, 1);
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    height: 450px;
+    background-image: url(paw-pattern-dark.png);
+    background-color: rgba(46, 80, 112, 1);
+    display: flex;
+    justify-content: center;
+}
+
+#footer {
+    width: 95%;
+    height: 450px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#upper-footer {
+    width: 75%;
+    height: 250px;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+#upper-footer img {
+    width: 250px;
+}
+
+#upper-footer h6 {
+    font-family: "Barlow";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color: rgba(198, 234, 227, 1);
+}
+
+#upper-footer p {
+    font-family: "Barlow";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+#lower-footer {
+    width: 100%;
+    height: 150px;
+    border-top: 1px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.upper-footer div {
+    display: flex;
+}
+
+
+@media (max-width:1100px) {
+    .all-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inner-adoption {
+        flex-direction: column;
+    }
+
+    #gambar-hal-5 {
+        width: 100%;
+    }
+}
+
+@media (max-width:720px) {
+    nav {
+        overflow: hidden;
+    }
+
+    #rightnav a {
+        display: none;
+    }
+
+    .container .hamburger {
+        display: flex;
+    }
+
+    #hamburger-div {
+        display: none;
+        margin-top: 110px;
+        position: fixed;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    #gambar-hal-5 {
+        background-image: url(/images/hero-adoption.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+    .inner-adoption {
+        flex-direction: column;
+        margin-top: 100px;
+        gap: 20px;
+    }
+
+
+    .inner-adoption p {
+        font-size: 20px;
+    }
+
+    .left-inner {
+        flex-direction: column;
+    }
+
+    .left-inner img {
+        width: 150px;
+    }
+
+    .upper-card {
+        flex-direction: column;
+    }
+
+    .lower-card {
+        flex-direction: column;
+    }
+
+    .first-cat {
+        width: 500px;
+        height: 720px;
+    }
+
+    #gambar-hal-5 {
+        width: 100%;
+    }
+
+    .last-card {
+        flex-direction: column;
+        height: 1200px;
+    }
+
+    .left-card {
+        width: 100%;
+    }
+
+    .right-card {
+        width: 100%;
+        height: 600px;
+    }
+
+    .right-card img {
+        padding-bottom: 50px;
+    }
+
+
+    .background-last-card {
+        width: 100%;
+    }
+
+
+
+    .upper {
+        width: 90%;
+    }
+
+    footer {
+        height: 850px;
+    }
+
+    #upper-footer {
+        flex-direction: column;
+        margin-top: 400px;
+
+    }
+
+    #lower-footer {
+        flex-direction: column;
+        margin-top: 420px;
+    }
+
+    #lower-footer p {
+        max-width: 600px;
+    }
+
+
+}
